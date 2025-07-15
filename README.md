@@ -35,6 +35,7 @@ It is suitable for colleges, universities, and educational institutions that aim
 
 ## 🧰 Built With
 
+- Java 
 - Java 1.8
 - Spring Boot
 - Maven
