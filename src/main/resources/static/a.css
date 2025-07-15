@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+body{
+    
+    height: 100vh;
+    width: 100wh;
+    margin: 0%;
+
+    /* background-color: #FFDEE9; */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),url('https://engineering.jjm.edu.in/wp-content/uploads/2024/11/Screenshot-2024-10-13-213520-1.png') no-repeat center center/cover;
+    text-align: center;
+/* background-size: cover; */
+
+}
+.para{
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.mainPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+}
+.subtitle{
+    color: black;
+    font-weight: 800;
+    font-size: xx-large;
+}
+.header1{
+    margin-top: 20px;
+    /* background-color: white; */
+    font-weight: 900;
+    font-size: xx-large;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.header{
+    margin-top: 20px;
+    /* background-color: white; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   font-size: xx-large;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+
+.button0{
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+.button0 a{
+    text-decoration: none;
+}
+
+.new{
+    background-color: aqua;
+    border-radius: 7px;
+    height: 50px;
+    width: 700px;
+    text-decoration: none;
+    color: aqua;
+}a
+
+.button0 :hover{
+    background-color: aquamarine;
+}
+

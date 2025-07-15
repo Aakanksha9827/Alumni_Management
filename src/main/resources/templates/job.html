@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="job.css">
+</head>
+<body>
+<form action="/savejob" method="post" enctype="multipart/form-data">
+ <label for="name">Alumni Name:</label>
+  <input type="text" id="name" name="name"><br><br>
+  
+   <label for="postingdate">Posting Date:</label>
+  <input type="date" id="postingdate" name="postingdate"><br><br>
+  
+   <label for="mobilenumber">Mobile Number:</label>
+  <input type="text" id="mobilenumber" name="mobilenumber"><br><br>
+
+  <label for="imageData">Image:</label>
+        <input type="file" id="imageData" name="imageData" required><br><br>
+        
+         <input type="submit" value="Submit">
+        </form>
+</body>
+</html>

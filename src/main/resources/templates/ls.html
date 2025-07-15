@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="ISO-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Link as Button</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .myDiv {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            width: 300px;
+        }
+
+        .my {
+            margin: 10px 0;
+        }
+
+        .button-class {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 12px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button-class:hover {
+            background-color: #45a049; /* Darker green on hover */
+        }
+
+        /* Responsive design */
+        @media (max-width: 400px) {
+            .myDiv {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="head">You are Successfully Logged In</h1>
+
+    <div class="myDiv">
+        <div class="my">
+            <a href="/donation" class="button-class">Donate Please</a>
+        </div>
+        <div class="my">
+            <a href="/edit" class="button-class">Edit Details</a>
+        </div>
+        <div class="my">
+            <a href="/job" class="button-class">Job Posting</a>
+        </div>
+         <div class="my">
+            <a href="/feedback" class="button-class">Feedback</a>
+        </div>
+    </div>
+</body>
+</html>
