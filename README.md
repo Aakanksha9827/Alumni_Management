@@ -44,4 +44,13 @@ It is suitable for colleges, universities, and educational institutions that aim
 ---
 
 ## 📂 Folder Structure
-
+AlumniManagement/
+├── src/main/java/com/pravin/
+│ ├── AlumniManagementApplication.java
+│ └── alumnicontroller/
+│ ├── AlumniController.java
+│ ├── AlumniDonationController.java
+│ ├── AlumniEmailcontroller.java
+│ └── AlumniFeedbackController.java
+├── pom.xml
+└── application.properties
